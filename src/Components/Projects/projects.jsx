@@ -11,6 +11,7 @@ import b2rex from '../../assets/b2rexhange.png';
 import cgpaCalc from '../../assets/gp1.png';
 
 import {FiExternalLink, FiGithub} from 'react-icons/fi';
+import {FaLink} from 'react-icons/fa';
 
 
 export const Projects = () => {
@@ -114,17 +115,17 @@ const projectItems = [
                
 {
     projectItems.map(projects => (
-        <div className="flex flex-col min-h-[100vh] md:flex-row gap-[20px] items-center justify-center ">
+        <div className="flex flex-col min-h-[100vh] md:flex-row gap-[20px] items-end justify-center ">
         <div className="max-w-[600px] hover:max-w-[580px] ">
         <img src={projects.ProjectImg} alt="" className="rounded shadow-2xl " />
         </div>
 <div className="flex flex-col gap-1 md:gap-4 max-w-[500px] ">
 <h1 className="font-myfont text-[25px] mt-[10px]  ">{projects.projectName}</h1>
-<p className="text-[20px] text-slate-300 ">{projects.ProjectDescr}</p>
-<p className="text-[20px] text-slate-300 ">{projects.projectStack}</p>
+<p className="md:text-[17px] text-slate-300 ">{projects.ProjectDescr}</p>
+<p className="md:text-[17px] text-slate-300 ">{projects.projectStack}</p>
 <p className="flex flex-row gap-2 ">
-    <a href="http://"><FiGithub className="text-[30px] text-slate-400 font-bold hover:text-slate-50 hover:text-[35px] "/></a>
-    <a href="http://"><FiExternalLink className="text-[30px] text-slate-400 font-bold hover:text-slate-50 hover:text-[35px] "/></a>
+    <a href="http://" className="flex hover:bg-slate-50 flex-row text-slate-900 bg-slate-200 rounded px-[5px] py-[5px] gap-1 font-fonty shadow-2xl  text-[17px] items-center">View code <FiGithub className="  font-bold   "/></a>
+    <a href="http://" className="flex border text-slate-200 hover:text-slate-50 px-[10px] rounded gap-2 text-[17px] flex-row items-center">Visit<FaLink className="  font-bold   "/></a>
 </p>
 </div>
     </div>
