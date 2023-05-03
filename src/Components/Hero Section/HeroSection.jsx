@@ -1,6 +1,9 @@
 import React from "react";
 import HeroImg from '../../assets/nzube.png';
 import {AiFillTwitterSquare, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
+import {MdOutgoingMail} from 'react-icons/md';
+
+
 export const HeroSection = () => {
     return(
         <div className="bg-Tp px-[30px] min-h-[100vh] pt-[100px] py-[50px] ">
@@ -12,6 +15,7 @@ export const HeroSection = () => {
             <AiFillLinkedin className="text-[50px] text-[35px] text-slate-200 shadow-xl rounded-xl "/>
             <AiFillTwitterSquare className="text-[50px] text-[35px] shadow-xl text-slate-200 "/>
             <AiFillGithub className="text-[50px] text-[35px] shadow-xl text-slate-200 "/>
+            <MdOutgoingMail  className="text-[50px] text-[35px] shadow-xl text-slate-200 "/>
         </div>
        </div>
        <div className="max-w-[500px] ">
