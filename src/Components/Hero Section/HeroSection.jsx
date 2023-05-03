@@ -3,7 +3,7 @@ import HeroImg from '../../assets/nzube.png';
 import {AiFillTwitterSquare, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 export const HeroSection = () => {
     return(
-        <div className="bg-Tp px-[30px] pt-[100px] py-[50px] ">
+        <div className="bg-Tp px-[30px] min-h-[100vh] pt-[100px] py-[50px] ">
         <div className="flex gap-5 items-center justify-around flex-col md:flex-row">
        <div className="max-w-[500px] flex flex-col gap-2 ">
         <h1 className="uppercase font-myfont text-[35px] md:text-[40px] text-slate-50  ">Desmond Nzubechukwu</h1>
