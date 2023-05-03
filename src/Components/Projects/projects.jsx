@@ -115,7 +115,8 @@ const projectItems = [
                
 {
     projectItems.map(projects => (
-        <div className="flex flex-col min-h-[100vh] md:flex-row gap-[20px] items-end justify-center ">
+        
+        <div className="flex flex-col min-h-[70vh] md:flex-row gap-[20px] items-end justify-center ">
         <div className="max-w-[600px] hover:max-w-[580px] ">
         <img src={projects.ProjectImg} alt="" className="rounded shadow-2xl " />
         </div>
