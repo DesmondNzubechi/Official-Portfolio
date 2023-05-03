@@ -8,7 +8,7 @@ import readerslodge from '../../assets/readerslodge.png';
 import eeunizik from '../../assets/ee.png';
 import nuesa from '../../assets/nuesau.png';
 import b2rex from '../../assets/b2rexhange.png';
-import cgpaCalc from '../../assets/cgpaCalc.png';
+import cgpaCalc from '../../assets/gp1.png';
 
 import {FiExternalLink, FiGithub} from 'react-icons/fi';
 
@@ -21,6 +21,14 @@ const projectItems = [
         projectName : 'EE-UNIZIK',
         ProjectDescr : 'This A E-Library Website for Electrical Engineering students in UNIZIK where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. The link provided below is the demo link. ',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
+        ProjectUrl : 'hh',
+        ProjectGit : 'gg',
+    },
+    {
+        ProjectImg: Myhealth,
+        projectName : 'My Health',
+        ProjectDescr : 'This is a healthcare website where patients can book treatment online from comfort of their home. It  has great user experience',
+        projectStack: 'Stack/Tools used: Html, Css, Javascript',
         ProjectUrl : 'hh',
         ProjectGit : 'gg',
     },
@@ -74,14 +82,7 @@ const projectItems = [
         ProjectUrl : 'hh',
         ProjectGit : 'gg',
     },
-    {
-        ProjectImg: Myhealth,
-        projectName : 'My Health',
-        ProjectDescr : 'This is a healthcare website where patients can book treatment online from comfort of their home. It  has great user experience',
-        projectStack: 'Stack/Tools used: Html, Css, Javascript',
-        ProjectUrl : 'hh',
-        ProjectGit : 'gg',
-    },
+  
     {
         ProjectImg: cgpaCalc,
         projectName : 'CGPA Calculator',
