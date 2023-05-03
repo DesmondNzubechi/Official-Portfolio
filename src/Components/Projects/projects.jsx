@@ -105,7 +105,7 @@ const projectItems = [
 
     return(
         <div className="text-slate-50 min-h-[100vh] px-[30px] py-[50px] pt-[100px] ">
-           <div className="my-[20px] ">
+           <div className="my-[20px] text-center">
             <h1 className="text-[40px] uppercase font-myfont ">My Projects</h1>
             <p className="text-slate-200 text-[20px] font-fonty ">Take a look at the some of the project that i Built</p>
             </div> 
@@ -116,7 +116,7 @@ const projectItems = [
 {
     projectItems.map(projects => (
         
-        <div className="flex flex-col min-h-[70vh] md:flex-row gap-[20px] items-end justify-center ">
+        <div className="flex flex-col mb-[150px] md:flex-row gap-[20px] items-end justify-center ">
         <div className="max-w-[600px] hover:max-w-[580px] ">
         <img src={projects.ProjectImg} alt="" className="rounded shadow-2xl " />
         </div>
