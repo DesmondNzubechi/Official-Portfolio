@@ -5,11 +5,11 @@ import {FaBars} from 'react-icons/fa';
 export const NavDesktop = () => {
     return(
         <div className="flex flex-row items-center bg-T shadow-2xl gap-[20px] md:px-[50px] px-[20px] fixed top-0 left-0 right-0 w-full  px-[20px] py-[10px] justify-between ">
-            <div className="bg-slate-100  w-fit shadow-2xl  p-2 mx-[20px] ">
-                <h1 className="font-myfont text-[25px] uppercase rounded text-slate-900"> NzubeChukwu</h1>
+            <div className="  w-fit shadow-2xl  p-2 mx-[20px] ">
+                <h1 className="font-myfont text-[25px] uppercase rounded text-slate-50"> NzubeChukwu</h1>
             </div>
             <div className=" p-2 md:mr-[50px] shadow-xl ">
-                <FaBars className="text-slate-100   text-[40px]  "/>
+                <FaBars className="text-slate-100   text-[30px]  "/>
             </div>
 <ul className="flex hidden flex-row gap-5  px-[10px] py-[5px] rounded-[5px] shadow-2xl  ">
     <li>
