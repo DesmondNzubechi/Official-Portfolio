@@ -6,10 +6,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'myfont': [ 'Nanum Myeongjo', 'serif']
+        'myfont': [ 'Nanum Myeongjo', 'serif'],
+        'fonty': ['Poppins', 'sans-serif']
       },
      colors: {  
         "Tp": "rgba(0, 0, 0, 0.9)",
+        "T": "rgba(0, 0, 0, .5)",
       }
   },
   plugins: [],

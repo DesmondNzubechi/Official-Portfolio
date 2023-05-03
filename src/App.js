@@ -5,7 +5,7 @@ import { NavDesktop } from './Components/Nav/NavDesktop';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-Tp">
     <BrowserRouter>
         <NavDesktop/>
     <Routes>
