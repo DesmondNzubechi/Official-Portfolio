@@ -13,7 +13,7 @@ import { Projects } from './Components/Projects/projects';
 
 function App() {
   return (
-    <div className="App bg-black overflow-x-hidden px-[10px] ">
+    <div className="App bg-black overflow-x-hidden ... px-[10px] ">
     <BrowserRouter>
         <NavDesktop/>
     <Routes>
