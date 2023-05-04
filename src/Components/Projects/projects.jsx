@@ -123,7 +123,7 @@ const projectItems = [
         
         <div  className="flex flex-col mb-[150px] md:flex-row gap-[20px] items-end justify-center ">
         <div data-aos='fade-right' data-aos-duration='1000' className="max-w-[600px]  ">
-        <img src={projects.ProjectImg} alt="" className="rounded hover:rounded-[50px] shadow-2xl " />
+        <img src={projects.ProjectImg} alt="" className="rounded hover:rounded-[30px] shadow-2xl " />
         </div>
 <div data-aos='fade-left' data-aos-duration='1000' className="flex flex-col gap-1 md:gap-4 max-w-[500px] ">
 <h1 className="font-myfont text-[25px] mt-[10px]  ">{projects.projectName}</h1>
