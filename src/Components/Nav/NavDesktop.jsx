@@ -40,7 +40,7 @@ export const NavDesktop = () => {
              { navIcon.showIcon &&   <FaBars onClick={showNavLink} className="text-slate-100 relative z-[30]  text-[30px]  "/>}
                {navIcon.hideIcon && <HiXMark onClick={hideNavLink} className="text-slate-100 relative z-[30]  text-[30px]  "/>}
             </div>
-<div className={` top-0 flex-row flex backdrop-blur-md justify-center h-full transition ease-out duration-300   pt-[100px] ${navLink}  w-full  gap-5 fixed px-[10px] py-[5px] items-center rounded-[5px] shadow-2xl  `}>
+<div className={` top-0 flex-row flex backdrop-blur-sm justify-center h-full transition ease-out duration-300   pt-[100px] ${navLink}  w-full  gap-5 fixed px-[10px] py-[5px] items-center rounded-[5px] shadow-2xl  `}>
     <ul className=" font-fonty  py-[50px] px-[50px] bg-Tp rounded shadow-2xl uppercase text-center ">
     <li>
         <Link onClick={hideNavLink} to='/' className='text-slate-50 text-[25px]   ' >Home</Link>

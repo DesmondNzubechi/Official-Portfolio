@@ -12,10 +12,15 @@ import cgpaCalc from '../../assets/gp1.png';
 
 import {FiExternalLink, FiGithub} from 'react-icons/fi';
 import {FaLink} from 'react-icons/fa';
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 export const Projects = () => {
-
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
 const projectItems = [
     {
         ProjectImg: eeunizik,
@@ -116,11 +121,11 @@ const projectItems = [
 {
     projectItems.map(projects => (
         
-        <div className="flex flex-col mb-[150px] md:flex-row gap-[20px] items-end justify-center ">
-        <div className="max-w-[600px] hover:max-w-[580px] ">
-        <img src={projects.ProjectImg} alt="" className="rounded shadow-2xl " />
+        <div  className="flex flex-col mb-[150px] md:flex-row gap-[20px] items-end justify-center ">
+        <div data-aos='fade-right' data-aos-duration='1000' className="max-w-[600px]  ">
+        <img src={projects.ProjectImg} alt="" className="rounded hover:rounded-[50px] shadow-2xl " />
         </div>
-<div className="flex flex-col gap-1 md:gap-4 max-w-[500px] ">
+<div data-aos='fade-left' data-aos-duration='1000' className="flex flex-col gap-1 md:gap-4 max-w-[500px] ">
 <h1 className="font-myfont text-[25px] mt-[10px]  ">{projects.projectName}</h1>
 <p className="md:text-[17px] text-slate-300 ">{projects.ProjectDescr}</p>
 <p className="md:text-[17px] text-slate-300 ">{projects.projectStack}</p>

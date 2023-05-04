@@ -1,12 +1,20 @@
 import React from "react";
-import HeroImg from '../../assets/nzube.png';
+import HeroImg from '../../assets/nzubeb2r.png';
 import {AiFillTwitterSquare, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import {MdOutgoingMail} from 'react-icons/md';
 import {IoLogoWhatsapp} from 'react-icons/io';
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 export const HeroSection = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+
     return(
-        <div className="bg-Tp px-[30px] min-h-[100vh] pt-[100px] py-[50px] ">
+        <div data-aos='fade-up' data-aos-duration='1000' className="bg-Tp px-[30px] min-h-[100vh] pt-[100px] py-[50px] ">
         <div className="flex gap-5 items-center justify-around flex-col md:flex-row">
        <div className="max-w-[500px] flex flex-col gap-2 ">
         <h1 className="uppercase font-myfont text-[35px] md:text-[40px] text-slate-50  ">Desmond Nzubechukwu</h1>
@@ -24,8 +32,8 @@ export const HeroSection = () => {
             <span className="bg-slate-300 h-[88px] w-[2px] "></span>
         </div>
        </div>
-       <div className="max-w-[500px] ">
-        <img src={HeroImg} alt="Nzubechukwu" className="rounded" srcset="" />
+       <div className="max-w-[500px] bg-gradient-to-b from-slate-50 to-slate-500  relative rounded-full ">
+        <img src={HeroImg} alt="Nzubechukwu" className="rounded-[50%]" srcset="" />
        </div>
         </div>
         </div>

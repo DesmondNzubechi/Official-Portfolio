@@ -1,16 +1,31 @@
 import React from "react";
-import HeroImg from '../../assets/nzube.png';
+import HeroImg from '../../assets/nzubeb2r.png';
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
+
+
+
+
+
 
 export const About = () => {
+
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+
     return(
         <div className="px-[30px] pb-[50px] pt-[100px] min-h-[100vh] ">
 <div className="flex flex-col md:flex-row justify-around items-center gap-5">
-    <div className="">
-    <img src={HeroImg} className="rounded"  alt="" />
-    </div>
-  <div className="">
-    <h1 className="text-slate-50 md:text-[30px] text-[25px] font-myfont">About Me</h1>
-    <div className="text-slate-300 font-fonty flex flex-col gap-2 ">
+<div data-aos='fade-up' data-aos-duration='1000' className=" bg-gradient-to-b from-slate-50 to-slate-500  relative rounded ">
+        <img src={HeroImg} alt="Nzubechukwu" className="rounded" srcset="" />
+       </div>
+  <div data-aos='fade-up' data-aos-duration='1000' className="">
+    <h1 className="text-slate-50 md:text-[30px] text-[25px]  font-myfont">About Me</h1>
+    <div className="text-slate-300 font-fonty max-w-[700px] flex flex-col gap-2 ">
     <p className="md:text-[17px] text-[15px] ">Hi, my name is <strong className="uppercase text-slate-50">Desmond Nzubechukwu Abugu</strong> , and I am a frontend web developer with expertise in HTML, CSS, JavaScript, ReactJS, and TailwindCSS. With a year of experience in the industry, I have had the opportunity to work on a couple of projects, both simple websites and complex web applications.</p>
   {/*<p className="md:text-[17px] text-[15px] "> I have honed my skills in HTML, CSS, and JavaScript, and have become proficient in using ReactJS to build responsive and user-friendly web applications. More recently, I have added TailwindCSS to my skillset, which has allowed me to rapidly build beautiful and consistent UI components.</p>*/}
   <p className="md:text-[17px] text-[15px] ">As a frontend developer, my goal is to create visually stunning and intuitive websites and applications that are both aesthetically pleasing and highly functional. I am passionate about creating seamless user experiences and strive to ensure that all of my products are accessible to all users, regardless of their technical abilities.</p>
