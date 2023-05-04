@@ -5,7 +5,7 @@ import { NavDesktop } from './Components/Nav/NavDesktop';
 import { Footer } from './Components/Footer/Footer';
 function App() {
   return (
-    <div className="App bg-black px-[40px] ">
+    <div className="App bg-black px-[10px] ">
     <BrowserRouter>
         <NavDesktop/>
     <Routes>
