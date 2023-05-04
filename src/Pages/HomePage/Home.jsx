@@ -4,7 +4,7 @@ import { HeroSection } from "../../Components/Hero Section/HeroSection";
 import { OverView } from "../../Components/OverView/Overview";
 import { About } from "../../Components/About/About";
 import { Projects } from "../../Components/Projects/projects";
-
+import { ContactMe } from "../../Components/Contacts/ContactMe";
 export const Home = () => {
     return(
         <div className="bg-Tp py-[20px]">
@@ -12,6 +12,7 @@ export const Home = () => {
 <OverView/>
 <About/>
 <Projects/>
+<ContactMe/>
         </div>
     )
 }
