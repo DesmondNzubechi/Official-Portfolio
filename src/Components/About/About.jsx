@@ -3,10 +3,10 @@ import HeroImg from '../../assets/nzube.png';
 
 export const About = () => {
     return(
-        <div className="px-[30px] min-h-[100vh] ">
+        <div className="px-[30px] pb-[50px] pt-[100px] min-h-[100vh] ">
 <div className="flex flex-col md:flex-row justify-around items-center gap-5">
-    <div className="md:flex hidden">
-    <img src={HeroImg}  alt="" />
+    <div className="">
+    <img src={HeroImg} className="rounded"  alt="" />
     </div>
   <div className="">
     <h1 className="text-slate-50 md:text-[30px] text-[25px] font-myfont">About Me</h1>
