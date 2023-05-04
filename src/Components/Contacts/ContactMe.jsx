@@ -8,7 +8,7 @@ export const ContactMe = () => {
     return(
         <div className="min-h-[100vh] after:bg-Contact p-[30px] bg-fixed after:min-h-[100%] relative after:absolute after:top-0 after:left-0 after:right-0 after:w-full bg-cover bg-no-repeat bg-[url('Components/Contacts/nzube.png')] ">
             <div className="relative z-10">
-            <div className="text-center pb-[20px] pt-[80px] ">
+            <div className="text-start pb-[20px] pt-[80px] ">
                 <h1 className="font-myfont text-slate-50 uppercase text-[40px] ">Contact Me</h1>
                 <p className="text-[20px] text-slate-300 font-fonty  ">Get in touch with me</p>
             </div>
