@@ -6,7 +6,7 @@ import { Footer } from './Components/Footer/Footer';
 import { ContactMe } from './Components/Contacts/ContactMe';
 import { About } from './Components/About/About';
 import { Projects } from './Components/Projects/projects';
-
+import { ContactLink } from './Components/ContactLink/ContactLink';
 
 
 
@@ -16,6 +16,7 @@ function App() {
     <div className="App bg-black overflow-x-hidden ... px-[10px] ">
     <BrowserRouter>
         <NavDesktop/>
+        <ContactLink/>
     <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/Contact' element={<ContactMe/>} />
