@@ -32,7 +32,7 @@ export const NavDesktop = () => {
        
     }
     return(
-        <div className="flex flex-row z-20 items-center overflow-x-0 bg-T shadow-2xl gap-[20px] md:px-[50px] px-[20px] fixed top-0 left-0 right-0 w-full  px-[20px] py-[10px] justify-between ">
+        <div className="flex flex-row z-20 items-center overflow-x-0 bg-T border-b  border-slate-800 shadow-2xl gap-[20px] md:px-[50px] px-[20px] fixed top-0 left-0 right-0 w-full  px-[20px] py-[10px] justify-between ">
             <div className="  w-fit bg-slate-100 rounded relative z-[30] shadow-2xl  p-2 mx-[20px] ">
                 <h1 className="font-myfont  text-[25px] uppercase rounded text-slate-900"> NzubeChukwu</h1>
             </div>
