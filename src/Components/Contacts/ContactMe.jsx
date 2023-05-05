@@ -16,7 +16,7 @@ export const ContactMe = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-     
+     e.preventDefault();
   
       emailjs.sendForm('service_2ijos78', 'template_yocf07d', form.current, 'TN_LogzUsxIiZdUEb')
         .then((result) => {
@@ -58,7 +58,7 @@ export const ContactMe = () => {
                         <input className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] rounded text-[15px] md:text-[20px] " type="text" name="from_name" placeholder="Full Name" id="" />
                     </div>
                     <div>
-                        <label className="text-slate-100 text-[20px] font-fonty " htmlFor="email">Smail:</label>
+                        <label className="text-slate-100 text-[20px] font-fonty " htmlFor="email">email:</label>
                         <input className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] rounded text-[15px] md:text-[20px] " type="email" name="from_email" placeholder="Email" id="" />
                     </div>
         
