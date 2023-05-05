@@ -121,7 +121,7 @@ const projectItems = [
 {
     projectItems.map(projects => (
         
-        <div  className="flex flex-col mb-[150px] md:flex-row gap-[20px] items-end justify-center ">
+        <div  className="flex flex-col mb-[150px] md:flex-row gap-[20px] items-start justify-center ">
         <div data-aos='fade-up' data-aos-duration='1000' className="max-w-[600px]  ">
         <img src={projects.ProjectImg} alt="" className="rounded transition ease-in delay-300 hover:-translate-y-1 hover:scale-100  shadow-2xl " />
         </div>
