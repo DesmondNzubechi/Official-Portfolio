@@ -18,12 +18,12 @@ export const HeroSection = () => {
         <h1 className="uppercase font-myfont text-[35px] md:text-[40px] text-slate-50  ">Desmond Nzubechukwu</h1>
         <p className="text-slate-50 text-[18px] md:text-[20px] capitalize ">I am a passionate <strong>frontend web developer</strong> .I create beautiful, intuitive, and user-friendly websites that not only meet the needs of my clients but also exceed the expectations of their users. </p>
         <div className="flex flex-row gap-3">
-            <Link to='/Contact' className=" bg-slate-400 text-slate-900 p-1 text-[20px] rounded font-fonty  ">Contact Me</Link> 
-            <a href="" className="  text-slate-50 p-1 border text-[20px] rounded font-fonty  ">My Resume</a>
+            <Link to='/Contact' className=" ease-in delay-150 hover:-translate-y-1 hover:scale-110 bg-slate-400 text-slate-900 p-1 text-[20px] rounded font-fonty  ">Contact Me</Link> 
+            <Link to='/' className=" ease-in delay-150 hover:-translate-y-1 hover:scale-110 text-slate-50 p-1 border text-[20px] rounded font-fonty  ">My Resume</Link>
         </div>
        </div>
-       <div data-aos='fade-up' data-aos-duration='1000' className="max-w-[500px] bg-gradient-to-b from-slate-50 to-slate-500  relative rounded-full ">
-        <img src={HeroImg} alt="Nzubechukwu" className="rounded-[50%]" srcset="" />
+       <div data-aos='fade-up' data-aos-duration='1000' className="max-w-[500px] transition ease-in delay-100 hover:-translate-y-1 hover:scale-110 bg-gradient-to-b  from-slate-50 to-slate-500  relative rounded-full ">
+        <img src={HeroImg} alt="Nzubechukwu" className="rounded-[50%] transition ease-in delay-300 hover:-translate-y-1 hover:scale-110" srcset="" />
        </div>
         </div>
         </div>
