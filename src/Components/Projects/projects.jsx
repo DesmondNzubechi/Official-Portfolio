@@ -109,10 +109,10 @@ const projectItems = [
 ]
 
     return(
-        <div className="text-slate-50 min-h-[100vh] px-[30px] py-[50px] pt-[100px] ">
+        <div className="text-slate-50 bg-gradient-to-b from-blue-900 to-Tp  min-h-[100vh] px-[30px] py-[50px] pt-[100px] ">
            <div className="my-[20px] text-center">
             <h1 className="text-[40px] uppercase font-myfont ">My Projects</h1>
-            <p className="text-slate-200 text-[20px] font-fonty ">Take a look at the some of the project that i Built</p>
+            <p className="text-slate-200 text-[20px] font-fonty capitalize ">Take a look at the some of the project that i Built</p>
             </div> 
 
             <div className="mt-[50px] flex flex-col gap-5 ">

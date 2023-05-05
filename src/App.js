@@ -13,7 +13,7 @@ import { ContactLink } from './Components/ContactLink/ContactLink';
 
 function App() {
   return (
-    <div className="App bg-black overflow-x-hidden ... px-[10px] ">
+    <div className="App bg-black overflow-x-hidden ...  ">
     <BrowserRouter>
         <NavDesktop/>
         <ContactLink/>

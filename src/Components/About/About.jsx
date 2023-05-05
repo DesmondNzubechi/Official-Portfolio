@@ -18,7 +18,7 @@ export const About = () => {
       }, []);
 
     return(
-        <div className="px-[30px] pb-[50px] pt-[100px] min-h-[100vh] ">
+        <div className="px-[30px] pb-[50px] bg-gradient-to-b from-Tp to-blue-900 pt-[100px] min-h-[100vh] ">
 <div className="flex flex-col md:flex-row justify-around items-center gap-5">
 <div data-aos='fade-up' data-aos-duration='1000' className=" bg-gradient-to-b from-slate-50 to-slate-500  relative rounded ">
         <img src={HeroImg} alt="Nzubechukwu" className="rounded" srcset="" />
