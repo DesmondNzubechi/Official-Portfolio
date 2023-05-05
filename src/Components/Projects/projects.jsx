@@ -115,7 +115,7 @@ const projectItems = [
             <p className="text-slate-200 text-[20px] font-fonty capitalize ">Take a look at the some of the project that i Built</p>
             </div> 
 
-            <div className="mt-[100px] flex flex-col gap-5 ">
+            <div className="mt-[50px] flex flex-col gap-5 ">
 
                
 {
