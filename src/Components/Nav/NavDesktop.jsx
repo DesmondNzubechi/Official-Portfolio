@@ -7,6 +7,7 @@ import {IoLogoWhatsapp} from 'react-icons/io';
 import  {HiXMark} from 'react-icons/hi2';
 import { useState } from "react";
 
+
 export const NavDesktop = () => {
  
     const [navIcon, setNavIcon] = useState({
