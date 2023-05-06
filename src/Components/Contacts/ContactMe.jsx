@@ -55,16 +55,16 @@ export const ContactMe = () => {
                 <form action="" ref={form} onSubmit={sendEmail} className="grid grid-cols-1 w-full md:grid-cols-2 gap-5">
                     <div>
                         <label className="text-slate-100 text-[20px] font-fonty " htmlFor="name">Name:</label>
-                        <input className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] rounded text-[15px] md:text-[20px] " type="text" name="from_name" placeholder="Full Name" id="" />
+                        <input required className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] rounded text-[15px] md:text-[20px] " type="text" name="from_name" placeholder="Full Name" id="" />
                     </div>
                     <div>
                         <label className="text-slate-100 text-[20px] font-fonty " htmlFor="email">email:</label>
-                        <input className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] rounded text-[15px] md:text-[20px] " type="email" name="from_email" placeholder="Email" id="" />
+                        <input required className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] rounded text-[15px] md:text-[20px] " type="email" name="from_email" placeholder="Email" id="" />
                     </div>
         
                     <div className="md:col-span-2 ">
                         <label className="text-slate-100 text-[20px] font-fonty " htmlFor="message">Message:</label>
-                        <textarea className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] min-h-[100px] rounded text-[15px] md:text-[20px] " name="message" id=""placeholder="Write Your Message" ></textarea>
+                        <textarea required className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] min-h-[100px] rounded text-[15px] md:text-[20px] " name="message" id=""placeholder="Write Your Message" ></textarea>
                     </div>
                     <button  className=" md:float-right  transition ease-in delay-150 hover:-translate-y-1 hover:scale-110 w-fit self-start bg-slate-200  px-[5px] text-[18px] md:text-[25px] font-fonty rounded hover:bg-slate-400 " type="submit">Send</button>
                 </form>
