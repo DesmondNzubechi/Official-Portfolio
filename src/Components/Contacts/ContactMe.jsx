@@ -66,7 +66,7 @@ export const ContactMe = () => {
                         <label className="text-slate-100 text-[20px] font-fonty " htmlFor="message">Message:</label>
                         <textarea className="bg-Contact outline-0 text-white w-full py-[10px] px-[10px] min-h-[100px] rounded text-[15px] md:text-[20px] " name="message" id=""placeholder="Write Your Message" ></textarea>
                     </div>
-                    <button  className=" md:float-right transition ease-in delay-150 hover:-translate-y-1 hover:scale-110 w-fit self-start bg-slate-200 py-[5px] px-[5px] text-[25px] font-fonty rounded hover:bg-slate-400 " type="submit">Send message</button>
+                    <button  className=" md:float-right  transition ease-in delay-150 hover:-translate-y-1 hover:scale-110 w-fit self-start bg-slate-200  px-[5px] text-[18px] md:text-[25px] font-fonty rounded hover:bg-slate-400 " type="submit">Send</button>
                 </form>
                 
                     
