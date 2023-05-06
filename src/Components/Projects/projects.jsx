@@ -24,11 +24,11 @@ export const Projects = () => {
 const projectItems = [
     {
         ProjectImg: eeunizik,
-        projectName : 'EE-UNIZIK',
-        ProjectDescr : 'This A E-Library Website for Electrical Engineering students in UNIZIK where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. The link provided below is the demo link. ',
+        projectName : 'EE-NAU',
+        ProjectDescr : 'I\m building this E-Library Website for Electrical Engineering students in my school (UNIZIK) where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. Tech is all about giving back to the community so I deceided to give back what I have to the community. The link provided below is the demo link. ',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
-        ProjectGit : 'github.com/DesmondNzubechi/ee-unizik',
-        ProjectUrl : 'ee-unizik.vercel.app',
+        ProjectGit : 'github.com/DesmondNzubechi/ee-nau',
+        ProjectUrl : 'ee-nau.vercel.app',
     },
     {
         ProjectImg: Myhealth,
@@ -57,7 +57,7 @@ const projectItems = [
     {
         ProjectImg: nuesa,
         projectName : 'Nuesa unizik',
-        ProjectDescr : 'This a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend,',
+        ProjectDescr : 'This is a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend,',
         projectStack: 'Stack/Tools used: React, NodeJs, MongoDB, Postman,Tailwindcss,Git,Vercel&Router',
         ProjectUrl : 'client-side-coral.vercel.app/',
         ProjectGit : 'github.com/NUESA-UNIZIK/Client-side',
