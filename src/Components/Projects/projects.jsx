@@ -25,10 +25,10 @@ const projectItems = [
     {
         ProjectImg: eeunizik,
         projectName : 'EE-NAU',
-        ProjectDescr : 'I\'m building this E-Library Website for Electrical Engineering students in my school (UNIZIK) where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. Tech is all about giving back to the community so I deceided to give back  to the community with the skill that I have. The link provided below is the demo link. ',
+        ProjectDescr : 'I\'m building this E-Library Website for Electrical Engineering students in my school (UNIZIK) where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. Tech is all about giving back to the community so I deceided to give back  to the community with the skill that I have. The website link will be available as soon as it\'s ready. ',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/ee-nau',
-        ProjectUrl : '#',
+        ProjectUrl : 'nzubechukwu.com',
     },
     {
         ProjectImg: Myhealth,
