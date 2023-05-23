@@ -9,7 +9,7 @@ import eeunizik from '../../assets/ee.png';
 import nuesa from '../../assets/nuesau.png';
 import b2rex from '../../assets/b2rexhange.png';
 import cgpaCalc from '../../assets/gp1.png';
-
+import homedecor from '../../assets/Screenshot 2023-05-22 091359.png';
 import {FiExternalLink, FiGithub} from 'react-icons/fi';
 import {FaLink} from 'react-icons/fa';
 import { useEffect } from "react";
@@ -22,6 +22,14 @@ export const Projects = () => {
         Aos.init({ duration: 1000 });
       }, []);
 const projectItems = [
+    {
+        ProjectImg: homedecor,
+        projectName : 'HOMEDECOR',
+        ProjectDescr : 'Homedecor is a furniture ecommerce website where you can view different kind of furniture for your home and office. You can add items to the cart, you can also add favorite item to your wishlist. products in the cart are stored in the localstorage. You can also search for a specific product across the page. It also has checkout page for payment',
+        projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
+        ProjectGit : 'github.com/DesmondNzubechi/Home-decor',
+        ProjectUrl : 'homedecor-by-nzubechukwu.vercel.app',
+    },
     {
         ProjectImg: eeunizik,
         projectName : 'EE-NAU',
@@ -117,7 +125,6 @@ const projectItems = [
 
             <div className="mt-[50px] flex flex-col gap-5 ">
 
-               
 {
     projectItems.map(projects => (
         
