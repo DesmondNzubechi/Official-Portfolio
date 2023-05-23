@@ -28,7 +28,7 @@ const projectItems = [
         ProjectDescr : 'Homedecor is a furniture ecommerce website where you can view different kind of furniture for your home and office. You can add items to the cart, you can also add favorite item to your wishlist. products in the cart are stored in the localstorage. You can also search for a specific product across the page. It also has checkout page for payment',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/Home-decor',
-        ProjectUrl : 'homedecor-by-nzubechukwu.vercel.app',
+        ProjectUrl : 'home-decor-by-nzubechukwu.vercel.app',
     },
     {
         ProjectImg: eeunizik,
