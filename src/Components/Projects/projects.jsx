@@ -35,7 +35,7 @@ const projectItems = [
     {
         ProjectImg: homedecor,
         projectName : 'Lorddube lorgistic energy',
-        ProjectDescr : 'Lorddube Logistic Energy is website for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . You can browse through the website to know more about them. I learnt alot while building this particular.',
+        ProjectDescr : 'Lorddube Logistic Energy is website for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . You can browse through the website to know more about them. I learnt alot while building this particular project. Check it out using the production link below.',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/LORDDUBE-LORGISTIC-ENERGY.CO',
         ProjectUrl : 'lorddubelogisticenergy.vercel.app/',
