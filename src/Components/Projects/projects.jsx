@@ -9,6 +9,7 @@ import eeunizik from '../../assets/ee.png';
 import nuesa from '../../assets/nuesau.png';
 import b2rex from '../../assets/b2rexhange.png';
 import cgpaCalc from '../../assets/gp1.png';
+import lorddube from '../../assets/lorddube.png';
 import homedecor from '../../assets/Screenshot 2023-05-22 091359.png';
 import {FiExternalLink, FiGithub} from 'react-icons/fi';
 import {FaLink} from 'react-icons/fa';
@@ -29,6 +30,15 @@ const projectItems = [
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/Home-decor',
         ProjectUrl : 'home-decor-by-nzubechukwu.vercel.app',
+    },
+
+    {
+        ProjectImg: homedecor,
+        projectName : 'Lorddube lorgistic energy',
+        ProjectDescr : 'Lorddube Logistic Energy is website for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . You can browse through the website to know more about them. I learnt alot while building this particular.',
+        projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
+        ProjectGit : 'github.com/DesmondNzubechi/LORDDUBE-LORGISTIC-ENERGY.CO',
+        ProjectUrl : 'lorddubelogisticenergy.vercel.app/',
     },
     {
         ProjectImg: eeunizik,

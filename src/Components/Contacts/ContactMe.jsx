@@ -14,10 +14,8 @@ import emailjs from '@emailjs/browser';
 export const ContactMe = () => {
 
     const form = useRef();
-
     const sendEmail = (e) => {
      e.preventDefault();
-  
       emailjs.sendForm('service_2ijos78', 'template_yocf07d', form.current, 'TN_LogzUsxIiZdUEb')
         .then((result) => {
             console.log(result.text);
