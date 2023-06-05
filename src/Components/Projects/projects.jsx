@@ -31,7 +31,14 @@ const projectItems = [
         ProjectGit : 'github.com/DesmondNzubechi/Home-decor',
         ProjectUrl : 'home-decor-by-nzubechukwu.vercel.app',
     },
-
+    {
+        ProjectImg: nuesa,
+        projectName : 'Nuesa unizik',
+        ProjectDescr : 'This is a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend,',
+        projectStack: 'Stack/Tools used: React, NodeJs, MongoDB, Postman,Tailwindcss,Git,Vercel&Router',
+        ProjectUrl : 'client-side-coral.vercel.app/',
+        ProjectGit : 'github.com/NUESA-UNIZIK/Client-side',
+    },
     {
         ProjectImg: lorddube,
         projectName : 'Lorddube lorgistic energy',
@@ -71,14 +78,6 @@ const projectItems = [
         projectStack: 'Stack/Tools used: HTML, CSS, BOOTSTRAP AND JAVASCRIPT.',
         ProjectGit : 'github.com/DesmondNzubechi/Ecommerce-Website',
         ProjectUrl : 'shoppy-by-nzubechukwu.netlify.app',
-    },
-    {
-        ProjectImg: nuesa,
-        projectName : 'Nuesa unizik',
-        ProjectDescr : 'This is a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend,',
-        projectStack: 'Stack/Tools used: React, NodeJs, MongoDB, Postman,Tailwindcss,Git,Vercel&Router',
-        ProjectUrl : 'client-side-coral.vercel.app/',
-        ProjectGit : 'github.com/NUESA-UNIZIK/Client-side',
     },
     {
         ProjectImg: Fintek,
