@@ -32,14 +32,6 @@ const projectItems = [
         ProjectUrl : 'home-decor-by-nzubechukwu.vercel.app',
     },
     {
-        ProjectImg: nuesa,
-        projectName : 'Nuesa unizik',
-        ProjectDescr : 'This is a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend,',
-        projectStack: 'Stack/Tools used: React, NodeJs, MongoDB, Postman,Tailwindcss,Git,Vercel&Router',
-        ProjectUrl : 'client-side-coral.vercel.app/',
-        ProjectGit : 'github.com/NUESA-UNIZIK/Client-side',
-    },
-    {
         ProjectImg: lorddube,
         projectName : 'Lorddube lorgistic energy',
         ProjectDescr : 'Lorddube Logistic Energy is website for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . You can browse through the website to know more about them. I learnt alot while building this particular project. Check it out using the production link below.',
@@ -48,13 +40,21 @@ const projectItems = [
         ProjectUrl : 'lorddubelogisticenergy.com',
     },
     {
+        ProjectImg: nuesa,
+        projectName : 'Nuesa unizik',
+        ProjectDescr : 'This is a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend,',
+        projectStack: 'Stack/Tools used: React, NodeJs, MongoDB, Postman,Tailwindcss,Git,Vercel&Router',
+        ProjectUrl : 'client-side-coral.vercel.app/',
+        ProjectGit : 'github.com/NUESA-UNIZIK/Client-side',
+    },
+   /* {
         ProjectImg: eeunizik,
         projectName : 'EE-NAU',
         ProjectDescr : 'I\'m building this E-Library Website for Electrical Engineering students in my school (UNIZIK) where they can download course outlines for each course and also dowload reading resources like handouts, exam past question and textbooks. They can also calculate their CGPA on the website. The website is under production. Tech is all about giving back to the community so I deceided to give back  to the community with the skill that I have. The website link will be available as soon as it\'s ready. ',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/ee-nau',
         ProjectUrl : 'nzubechukwu.com',
-    },
+    },*/
     {
         ProjectImg: Myhealth,
         projectName : 'My Health',
@@ -71,14 +71,14 @@ const projectItems = [
         ProjectGit : 'github.com/DesmondNzubechi/Airtime-seller',
         ProjectUrl : 'airtimeseller-by-nzubechukwu.vercel.app/',
     },
-    {
+   /* {
         ProjectImg: shoppy,
         projectName : 'Shoppy',
         ProjectDescr : 'Shoppy is an ecommerce website where user can buy Wristwatch, Clothes and you. I built this project in practice of my javascript skill. Items can be added and removed from cart.',
         projectStack: 'Stack/Tools used: HTML, CSS, BOOTSTRAP AND JAVASCRIPT.',
         ProjectGit : 'github.com/DesmondNzubechi/Ecommerce-Website',
         ProjectUrl : 'shoppy-by-nzubechukwu.netlify.app',
-    },
+    },*/
     {
         ProjectImg: Fintek,
         projectName : 'Fintekk',
@@ -87,7 +87,7 @@ const projectItems = [
         ProjectUrl : 'fintekk-landing-page.vercel.app/',
         ProjectGit : 'github.com/DesmondNzubechi/fintekk-landing-page ',
     },
-    {
+   /* {
         ProjectImg: readerslodge,
         projectName : 'Readers Lodge',
         ProjectDescr : 'This is a book store that I built. The aim of the site is to give users to read/order and download different kinds of book from their home. The website is still under production but a demo link is provided below.  I built this website with a modern and responsive user interface that is intuitive and easy to use.',
@@ -95,9 +95,9 @@ const projectItems = [
         ProjectUrl : 'readerslodge-by-nzubechukwu.vercel.app/',
         ProjectGit : 'github.com/DesmondNzubechi/Readers-lodge',
     },
+   */
    
-   
-    {
+   /* {
         ProjectImg: HomeFeature,
         projectName : 'Home Features.',
         ProjectDescr : 'This is a real a state website where houses are sold.Each house has it location where you can easily locate it.  It is fully responsive and user friendly.',
@@ -105,7 +105,7 @@ const projectItems = [
         ProjectUrl : 'homefeatures.netlify.app',
         ProjectGit : 'github.com/DesmondNzubechi/Property-Management',
     },
-  
+  */
     {
         ProjectImg: cgpaCalc,
         projectName : 'CGPA Calculator',
@@ -114,7 +114,7 @@ const projectItems = [
         ProjectUrl  : 'cgpacalcby-nzubechukwu.vercel.app',
         ProjectGit : 'github.com/DesmondNzubechi/cgpa-calculator',
     },
-    {
+  /*  {
         ProjectImg: b2rex,
         projectName : 'B2R Exchange',
         ProjectDescr : 'This a website where you can easily trade your gift card without any risk. It has great user experience.',
@@ -122,7 +122,8 @@ const projectItems = [
         ProjectUrl : 'b2rxchange.netlify.app',
         ProjectGit : 'github.com/DesmondNzubechi/Gift-Card-Exchange',
     }
-  
+  */
+ 
 ]
 
     return(
