@@ -11,6 +11,7 @@ import b2rex from '../../assets/b2rexhange.png';
 import cgpaCalc from '../../assets/gp1.png';
 import lorddube from '../../assets/lorddube.png';
 import homedecor from '../../assets/Screenshot 2023-05-22 091359.png';
+import homebuilder from '../../assets/homebuilder.png';
 import {FiExternalLink, FiGithub} from 'react-icons/fi';
 import {FaLink} from 'react-icons/fa';
 import { useEffect } from "react";
@@ -23,6 +24,14 @@ export const Projects = () => {
         Aos.init({ duration: 1000 });
       }, []);
 const projectItems = [
+    {
+        ProjectImg: homebuilder,
+        projectName : 'HOMEBUILDER',
+        ProjectDescr : 'This project is a real estate modern website built with React, Tailwind CSS, and Firebase. I integrated Seamlessly search and explore properties based on location and budget, I integrated authentication using firebase, and  a dynamic admin dashboard for property listing, I also made the property listing available for anyone to test the features. Experience enhanced communication and discover the latest listings, making this project an invaluable addition to any real estate venture.',
+        projectStack: 'Stack/Tools used: React,Tailwindcss, firebase, Git,Router',
+        ProjectGit : 'github.com/DesmondNzubechi/beautiful-home',
+        ProjectUrl : 'buildhome.vercel.app',
+    },
     {
         ProjectImg: homedecor,
         projectName : 'HOMEDECOR',
