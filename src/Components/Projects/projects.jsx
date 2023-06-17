@@ -35,7 +35,7 @@ const projectItems = [
     {
         ProjectImg: homedecor,
         projectName : 'HOMEDECOR',
-        ProjectDescr : 'Homedecor is a furniture ecommerce website where you can view different kind of furniture for your home and office. You can add items to the cart, you can also add favorite item to your wishlist. products in the cart are stored in the localstorage. You can also search for a specific product across the page. It also has checkout page for payment',
+        ProjectDescr : 'Homedecor is a furniture ecommerce website where you can view different kind of furniture for your home and office. You can add items to the cart, you can also add favorite item to your wishlist. products in the cart are stored in the localstorage. You can also search for a specific product across the page. It also has checkout page for payment.',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/Home-decor',
         ProjectUrl : 'home-decor-by-nzubechukwu.vercel.app',
@@ -43,7 +43,7 @@ const projectItems = [
     {
         ProjectImg: lorddube,
         projectName : 'Lorddube lorgistic energy',
-        ProjectDescr : 'Lorddube Logistic Energy is website that I built for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . This projects made it easy for their customer to access them online ',
+        ProjectDescr : 'Lorddube Logistic Energy is website that I built for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . This website made it easy for their customer to access them online.',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/LORDDUBE-LORGISTIC-ENERGY.CO',
         ProjectUrl : 'lorddubelogisticenergy.com',
