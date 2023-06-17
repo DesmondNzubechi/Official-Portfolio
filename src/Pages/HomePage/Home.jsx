@@ -23,8 +23,6 @@ export const Home = () => {
         
         <div className="bg-Tp  py-[20px]">
 <HeroSection/>
-<OverView/>
-<About/>
 <Projects/>
 <ContactMe/>
         </div>

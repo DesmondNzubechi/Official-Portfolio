@@ -27,7 +27,7 @@ const projectItems = [
     {
         ProjectImg: homebuilder,
         projectName : 'HOMEBUILDER',
-        ProjectDescr : 'This project is a real estate modern website built with React, Tailwind CSS, and Firebase. I integrated Seamlessly search and explore properties based on location and budget, I integrated authentication using firebase, and  a dynamic admin dashboard for property listing, I also made the property listing available for anyone to test the features. Experience enhanced communication and discover the latest listings, making this project an invaluable addition to any real estate venture.',
+        ProjectDescr : 'This project is a real estate  website that I built with React, Tailwind CSS, and Firebase. I integrated Seamlessly search to explore properties based on location and budget, I integrated authentication using firebase, and  a dynamic admin dashboard for property listing, I also made the property listing available for anyone to test the features. Experience enhanced communication and discover the latest listings, making this project an invaluable addition to any real estate venture.',
         projectStack: 'Stack/Tools used: React,Tailwindcss, firebase, Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/beautiful-home',
         ProjectUrl : 'buildhome.vercel.app',
@@ -43,7 +43,7 @@ const projectItems = [
     {
         ProjectImg: lorddube,
         projectName : 'Lorddube lorgistic energy',
-        ProjectDescr : 'Lorddube Logistic Energy is website for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . You can browse through the website to know more about them. I learnt alot while building this particular project. Check it out using the production link below.',
+        ProjectDescr : 'Lorddube Logistic Energy is website that I built for company located in Porthacourt Nigeria they specialize in selling of quality Oil and Gas tools . This projects made it easy for their customer to access them online ',
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/LORDDUBE-LORGISTIC-ENERGY.CO',
         ProjectUrl : 'lorddubelogisticenergy.com',
@@ -51,7 +51,7 @@ const projectItems = [
     {
         ProjectImg: nuesa,
         projectName : 'Nuesa unizik',
-        ProjectDescr : 'This is a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend,',
+        ProjectDescr : 'This is a website for faculty of engineering unizik where its students can download reading material and also read article about engineering. I am among the team that built the website. I worked on the frontend where utilized reactjs and tailwindcss.',
         projectStack: 'Stack/Tools used: React, NodeJs, MongoDB, Postman,Tailwindcss,Git,Vercel&Router',
         ProjectUrl : 'client-side-coral.vercel.app/',
         ProjectGit : 'github.com/NUESA-UNIZIK/Client-side',
@@ -63,7 +63,7 @@ const projectItems = [
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Router',
         ProjectGit : 'github.com/DesmondNzubechi/ee-nau',
         ProjectUrl : 'nzubechukwu.com',
-    },*/
+    },
     {
         ProjectImg: Myhealth,
         projectName : 'My Health',
@@ -79,7 +79,7 @@ const projectItems = [
         projectStack: 'Stack/Tools used: React,Tailwindcss,Git,Vercel&Router',
         ProjectGit : 'github.com/DesmondNzubechi/Airtime-seller',
         ProjectUrl : 'airtimeseller-by-nzubechukwu.vercel.app/',
-    },
+    },*/
    /* {
         ProjectImg: shoppy,
         projectName : 'Shoppy',
@@ -87,7 +87,7 @@ const projectItems = [
         projectStack: 'Stack/Tools used: HTML, CSS, BOOTSTRAP AND JAVASCRIPT.',
         ProjectGit : 'github.com/DesmondNzubechi/Ecommerce-Website',
         ProjectUrl : 'shoppy-by-nzubechukwu.netlify.app',
-    },*/
+    },
     {
         ProjectImg: Fintek,
         projectName : 'Fintekk',
@@ -114,7 +114,7 @@ const projectItems = [
         ProjectUrl : 'homefeatures.netlify.app',
         ProjectGit : 'github.com/DesmondNzubechi/Property-Management',
     },
-  */
+  
     {
         ProjectImg: cgpaCalc,
         projectName : 'CGPA Calculator',
